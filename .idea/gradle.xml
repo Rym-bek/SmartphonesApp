@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-logic" />
+                  <project path="$PROJECT_DIR$/build-logic/convention" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/build-logic" />
+            <option value="$PROJECT_DIR$/build-logic/convention" />
+            <option value="$PROJECT_DIR$/business" />
+            <option value="$PROJECT_DIR$/business/data" />
+            <option value="$PROJECT_DIR$/business/data/catalog-data" />
+            <option value="$PROJECT_DIR$/business/data/favorite-data" />
+            <option value="$PROJECT_DIR$/business/data/product-data" />
+            <option value="$PROJECT_DIR$/business/database" />
+            <option value="$PROJECT_DIR$/business/domain" />
+            <option value="$PROJECT_DIR$/business/domain/catalog-domain" />
+            <option value="$PROJECT_DIR$/business/domain/favorite-domain" />
+            <option value="$PROJECT_DIR$/business/domain/product-domain" />
+            <option value="$PROJECT_DIR$/business/models" />
+            <option value="$PROJECT_DIR$/business/models/cache-models" />
+            <option value="$PROJECT_DIR$/business/models/domain-models" />
+            <option value="$PROJECT_DIR$/business/models/remote-models" />
+            <option value="$PROJECT_DIR$/business/models/ui-models" />
+            <option value="$PROJECT_DIR$/business/network" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/common" />
+            <option value="$PROJECT_DIR$/core/design-system" />
+            <option value="$PROJECT_DIR$/core/ui" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/smartphone-details" />
+            <option value="$PROJECT_DIR$/features/smartphones" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
